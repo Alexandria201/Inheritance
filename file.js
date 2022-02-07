@@ -1,11 +1,7 @@
 function Organism(){
 }
 Organism.prototype.isAlive = function(){
-  if (this.age < 110){
-    return true
-  } else {
-    return false
-  }
+  this.age < 110 ? true : false
 }
 
 function Creater(){
